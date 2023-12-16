@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    padding: 8% 1%;
+    width:50%; 
+}
+h1{
+    text-align: center;
+    border: 0.4rem solid rgba(132, 115, 128, 0.81);
+    padding: 2%;
+    background-color: rgba(175, 137, 197, 0.338);
+    margin-left: 50%;
+    width: 100%;
+}
+#container{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(198, 34, 198, 0.256);
+    padding: 8%;
+    border:  0.2rem solid grey;
+    margin-left: 50%;
+}
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+label{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    padding: 0.5% 1%;
+    border: 0.5% solid;
+    width: 80%;
+    display: inline-block;
+    background-color:whitesmoke;
+    
+}
+.equal{
+    margin:5%;
+}
+@media only screen and (max-width: 950px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .con h1{
+        width:100%;
+        margin-top: 30%;
+        margin-left: 0%;
+    }
+    #container{
+      width:100%;
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+    .input-div{
+        width: 100%;
+    }
+    label{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 420px){
+    #cel{
+        width: 50%;
+        padding: 0%;
+        font-size: 1rem;
+    } 
+    #fah{
+        width: 50%;
+        padding: 0%;
+        font-size: 1rem;
+    } 
+    .input-div{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    label{
+        width: 50%;
+        font-size: 0.5rem;
+    }
+   
+}
+@media only screen and (max-width: 200px){
+    label{
+        width: 100%;
+        font-size: 0.25rem;
+    }
+    input{
+        font-size: 1rem;
+    }
+    #cel{
+        width: 50%;
+        padding: 0%;
+        font-size: 0.5rem;
+    } 
+    #fah{
+        width: 50%;
+        padding: 0%;
+        font-size: 0.5rem;
+    } 
+    .con h1{
+        font-size: 0.5rem;
+    }
+}
